@@ -108,7 +108,7 @@ dL/dw2_matrix = dL/dyhat * dyhat/dz2_matrix * dz2_matrix/dw2_matrix
 """
 
 
-# Now we can pass in some parameters
+# Now pass in some parameters
 # Initial Input
 x = 1
 # Reshape it as a column vector
@@ -120,7 +120,7 @@ y = 0.5
 # Step Size
 eta = 0.1
 
-# Now we can do BackPropagation to update the weight matrix
+# Now do BackPropagation to update the weight matrix
 
 
 def backProp(iter, y, w1_matrix, w2_matrix, x):
